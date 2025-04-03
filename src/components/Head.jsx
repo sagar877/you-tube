@@ -12,7 +12,7 @@ const Head = () => {
 
   return (
    <>
-    	<nav className="flex p-5 py-3 shadow-xl justify-between w-screen items-center">
+    	<nav className="flex p-5 py-3 shadow-xl fixed top-0 z-50 bg-white  justify-between w-screen items-center">
 
 			<ul className="flex space-x-2 sm:space-x-6">
 				<li onClick={() => toggleMenuHandler()} className='cursor-pointer'>

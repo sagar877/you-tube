@@ -18,8 +18,8 @@ const VideoContainer = () => {
 
   return (
   <>
-    <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3'>
-      {videos.length > 0 && <VideoCard info={videos[1]} />}
+    <div className='gap-x-3 gap-y-0 flex-wrap justify-center grid xl:grid-cols-5'>
+      {videos.map( video => <VideoCard key={video.id} info={video} />)}
     </div>
   </>
   )

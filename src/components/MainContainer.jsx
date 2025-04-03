@@ -10,7 +10,7 @@ const MainContainer = () => {
 
   return (
    <>
-      <div className={`p-10 ${ isOpenMenu? 'ms-80' : 'ms-0'}`}>
+      <div className={`px-10 mt-24 ${ isOpenMenu? 'ms-[345px]' : 'ms-0'}`}>
         <ButtonList/>
         <VideoContainer/>
       </div>

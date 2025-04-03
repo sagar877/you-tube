@@ -8,7 +8,7 @@ const isMenuOpen = useSelector(store => store.app.isOpenMenu);
 
   return !isMenuOpen ? null : (
 	<>
-    	<div className="w-80 fixed left-0 bg-white h-[93vh] pt-5 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] text-sm">
+    	<div className="w-80 mt-16 fixed left-0 bg-white h-[93vh] pt-5 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] text-sm">
 
             <a href="#" className="tracking-tight text-black">
                 <div className="pl-8 py-3 active flex items-center">

@@ -19,10 +19,6 @@ const ButtonList = () => {
       <Button name='IPL'/>
       <Button name='Web series'/>
       <Button name='Watched'/>
-      <Button name='Dj mix'/>
-      <Button name='IPL'/>
-      <Button name='Web series'/>
-      <Button name='Watched'/>
     </div>
   )
 }
