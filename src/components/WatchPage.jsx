@@ -17,7 +17,7 @@ const WatchPage = () => {
 
     return (
         <div className={`px-10 mt-24 ${ isOpenMenu? 'ms-[345px]' : 'ms-0'}`}>
-          <iframe width="800" height="400" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="800" height="400" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" ></iframe>
         </div>
     )
 };
